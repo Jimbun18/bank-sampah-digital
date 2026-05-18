@@ -9,8 +9,9 @@
 <body class="bg-gray-50 font-sans antialiased text-gray-900">
 
     <nav class="bg-hijau-utama shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-50">
-        <div class="font-bold text-xl text-white flex items-center gap-2">
-            ♻️ Bank Sampah
+        <div class="flex items-center gap-2 rounded-xl px-3 py-1.5 bg-white shadow-sm transition hover:bg-gray-50">
+            <span class="text-xl">♻</span>
+            <span class="font-bold text-lg md:text-xl text-hijau-utama">Bank Sampah</span>
         </div>
         <div class="flex items-center gap-2 sm:gap-4">
                     

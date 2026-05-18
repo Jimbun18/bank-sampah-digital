@@ -47,7 +47,16 @@
 
                     <div>
                         <label class="block text-gray-700 font-medium mb-2">Berat (Kg)</label>
-                        <input type="number" step="0.1" name="berat" id="berat" required oninput="hitungTotal()" min="0.1" placeholder="Contoh: 2.5" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-hijau-utama outline-none bg-gray-50">
+                        <input type="number" 
+                            step="0.1" 
+                            name="berat" 
+                            id="berat" 
+                            required 
+                            min="0.1" 
+                            max="999" 
+                            oninput="if(this.value > 999) this.value = 999; hitungTotal()" 
+                            placeholder="Contoh: 2.5" 
+                            class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-hijau-utama outline-none bg-gray-50">
                     </div>
                 </div>
 
