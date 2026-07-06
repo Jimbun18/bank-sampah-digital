@@ -20,14 +20,14 @@ Bank Sampah Digital adalah aplikasi berbasis web yang digunakan untuk mengelola 
 - PHP
 - MySQL
 - Bootstrap
-- XAMPP
+- Laragon
 
 ## Instalasi
 
 1. Clone repository
 
 ```bash
-git clone https://github.com/username/bank-sampah-digital.git
+git clone https://github.com/Jimbun18/bank-sampah-digital.git
 ```
 
 2. Pindahkan project ke folder `htdocs`.
@@ -36,7 +36,7 @@ git clone https://github.com/username/bank-sampah-digital.git
 
 4. Buat database `bank_sampah`.
 
-5. Import file `database/bank_sampah.sql`.
+5. Import file `db_bank_sampah.sql`.
 
 6. Jalankan aplikasi melalui browser.
 
@@ -45,13 +45,13 @@ git clone https://github.com/username/bank-sampah-digital.git
 Manual Book dapat dilihat pada folder:
 
 ```
-dokumentasi/Manual Book.pdf
+dokumentasi/Manual Book Bank Sampah Digital.pdf
 ```
 
 Presentasi:
 
 ```
-dokumentasi/Presentasi.pptx
+dokumentasi/Bank_Sampah_Digital.pptx
 ```
 
 
